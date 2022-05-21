@@ -1,9 +1,9 @@
-var imputElement = document.querySelector('#cep')
+var inputElement = document.querySelector('#cep')
 
 //fuction para pesquisar o cep
 function searchUser(){
-    axios.get(`https://viacep.com.br/ws/$(inpuntElement.value)/json/`)
-.then(res => { 
+    axios.get(`https://viacep.com.br/ws/${inputElement.value}/json/`)
+.then(res =>{ 
     document.getElementById('rua').value = res.data.logradouro 
     document.getElementById('bairro').value = res.data.bairro 
     document.getElementById('cidade').value = res.data.localidade 
