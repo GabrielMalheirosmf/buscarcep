@@ -1,0 +1,25 @@
+endereço {
+    background-color: rgb(34,22,22);
+}
+button{
+    background-color: #5c5a5a;
+}
+button{
+    background-color: #5c5a5a;
+    color:aliceblue;
+}
+body{
+    background-image: linear-gradient(to right #232526,#424345,rgb(0,0,0));
+}
+barra_buscar{
+    display:flexbox;
+    width: auto;
+}
+h1{
+    color: rgb(255,255,255);
+    background-image: linear-gradient(to right,rgb(49,135,175),rgb(0,0,0));   
+}
+input{
+    color:rgb(0,0,0);
+    background-color: rgb(255,255,255);
+}
